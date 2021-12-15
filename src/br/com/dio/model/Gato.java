@@ -1,5 +1,7 @@
 package br.com.dio.model;
 
+import br.com.dio.string;
+
 import java.util.Objects;
 
 public class Gato {

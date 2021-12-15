@@ -8,6 +8,7 @@ public class primeiroPrograma {
         System.out.println(gato);
 
         Livro livro1 = new Livro("o problema dos 3 corpos","300");
+        System system = null;
         system.out.println(livro1);
 
         //int a = 5;
@@ -17,27 +18,27 @@ public class primeiroPrograma {
 }
 
 class Livro {
-    private string nome;
-    private integer numPaginas;
+    private String nome;
+    public String numPaginas;
 
-    public Livro(string nome, integer numPaginas) {
+    public Livro(String nome, String numPaginas) {
         this.nome = nome;
         this.numPaginas = numPaginas;
     }
 
-    public string getNome() {
+    public String getNome() {
         return nome;
     }
 
-    public void setNome(string nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public integer getNumPaginas() {
+    public String getNumPaginas() {
         return numPaginas;
     }
 
-    public void setNumPaginas(integer numPaginas) {
+    public void setNumPaginas(String numPaginas) {
         this.numPaginas = numPaginas;
     }
 
